@@ -18,6 +18,8 @@ puts "#{employee2[:first_name]} #{employee2[:last_name]} makes #{employee2[:sala
 
 # 4. Represent an employee as a class instance
 class Employee
+  attr_reader :first_name, :last_name
+
   def initialize(input_first_name, input_last_name, input_salary, input_active)
     @first_name = input_first_name
     @last_name = input_last_name
@@ -40,3 +42,5 @@ employee1.print_info
 employee2.print_info
 employee2.give_annual_raise
 employee2.print_info
+puts employee2.first_name
+puts employee2.last_name
