@@ -1,7 +1,7 @@
 require './employee.rb'
 require './email_reporter.rb'
 
-module ACLTC
+module Actualize
   class Intern < Employee
     include EmailReporter
   end

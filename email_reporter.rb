@@ -1,4 +1,4 @@
-module ACLTC
+module Actualize
   module EmailReporter
     def send_report
       puts "Sending email..."
